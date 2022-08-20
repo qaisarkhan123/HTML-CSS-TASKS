@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+/********************* Header ******************************/
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 40px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+.contact_button {
+    background-color: #0A2D4F;
+    color: #f1f1f1;
+    padding: 10px 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/********************* Intro para ******************************/
+
+.intro_para_heading {
+    font-style: italic;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+.intro_para {
+    line-height: 2;
+    width: 650px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+button {
+    background-color: #0A2D4F;
+    color: #f1f1f1;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 60px;
+    cursor: pointer;
+    display: block;
+    margin-top: 40px;
+}
+
+.hero_image {
+    float: right;
+    margin-top: -300px;
+    margin-right: 200px;
+}
+
+/********************* second para ******************************/
+
+.second_para_heading {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.second_para {
+    line-height: 2;
+    width: 650px;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+.second_image {
+    float: right;
+    margin-top: -160px;
+    margin-right: 200px;
+    height: 400px;
+    width: auto;
+}
+
+.cls{
+    margin-left: 115px;
+    font-size: 14px;
+    width: 50%;
+}
+.cls ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 50px;
+}
+.cls li{
+    display: block;
+}
+.cls2{
+    font-size: 14px;
+    width: 50%;
+}
+.cls2 ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 50px;
+}
+.cls2 li{
+    display: block;
+}
+
+/********************* Third para ******************************/
+
+.third_para_heading {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+.third_para {
+    width: 650px;
+    margin-left: 120px;
+    margin-top: 270px;
+}
+.third_image {
+    float: right;
+    margin-top: -310px;
+    margin-right: 200px;
+    height: 400px;
+    width: auto;
+    height: 400px;
+    width: auto;
+}
+
+/********************* Footer ******************************/
+.fourth_para {
+    width:100%;
+    text-align:center;
+    height: 25px;
+    padding:4px 0 4px 0;
+    margin-top:4px;
+    margin-top: 200px;
+    background-color:#F2FAFF;
+}
