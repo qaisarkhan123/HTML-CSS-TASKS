@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+            <!-----------------    Header        ----------------->
+    <header>
+        <a href="./index.html"><img src="./images/Logo.svg" alt="alif_logo" class="header_logo"></a>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="contact_button">Contact</li>
+        </ul>
+    </header>
+    <section>
+        <div class="form_intro">
+            <p class="heading">Hire me by filling this form</p>
+            <br>
+            <form action="/action_page.php">
+
+                <!----------------- Initail inputs of text ----------------->
+
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email"id="email" name="email"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern=""><br>
+            <label for="address">Address:</label><br>
+            <input type="address"id="address" name="address"><br><br>
+
+            <!------------------ inputs of Dropdown ----------------->
+
+            <label for="package" class="heading">Select the package you want to buy:</label> <br>
+            <select name="package" id="package">
+            <option value="package1">Select one package</option>
+            <!-- <option value="package2"></option>
+            <option value="package3"></option> -->
+            </select> <br><br>
+
+                <!------------------ inputs of Radio Buttons ----------------->
+
+            <p class="heading">How many revisions do you need?</p>
+            <input type="radio" id="age1" name="revisions" value="20">
+            <label for="age1">20 revisions</label><br>
+            <input type="radio" id="age2" name="revisions" value="200">
+            <label for="age2">200 revisions</label><br>  
+            <input type="radio" id="age3" name="revisions" value="Unlimited">
+            <label for="age3">Unlimited revisions</label><br><br>
+
+                <!------------------ inputs of checkboxes ----------------->  
+
+            <p class="heading">From where did you hear about me?</p>
+            <input type="checkbox" id="socialMedia1">
+            <label for="socialMedia1"> Facebook</label><br>
+            <input type="checkbox" id="socialMedia2">
+            <label for="socialMedia2"> Twitter</label><br>
+            <input type="checkbox" id="socialMedia3">
+            <label for="socialMedia3"> Youtube</label><br><br>
+
+                <!------------------ inputs of gift ----------------->  
+
+            <p class="heading">Get 20% off by applying gift code:</p>
+            <input type="text" id="coupan" name="coupan" placeholder="Gift code here..."><br><br>
+
+                <!------------------ inputs of textarea ----------------->  
+
+            <p class="heading">Do you have any message for me?</p>
+            <textarea id="textArea" rows="9" cols="50">I want to say...</textarea> <br><br>
+
+                <!------------------ inputs of submitButton ----------------->  
+
+            <input class="submit_button" type="submit" value="Send it">
+            </form> 
+            
+        </div>
+        <img src="/images/Group 5.png" alt="main_image" class="main_image">
+
+        <br>
+        <br>
+        <br>
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

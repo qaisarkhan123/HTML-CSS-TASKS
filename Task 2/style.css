@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+/********************* Header ******************************/
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 40px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+.contact_button {
+    background-color: #0A2D4F;
+    color: #f1f1f1;
+    padding: 10px 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/********************* Intro heading ******************************/
+
+.heading {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form_intro {
+    line-height: 2;
+    width: 650px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+/* .hero_image {
+    float: right;
+    margin-top: -300px;
+    margin-right: 200px;
+} */
+
+/*********************  Input Fields ******************************/
+
+#fname{
+    background-color: #F9F9F9;
+    padding: 3px 68px 2px 3px;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+#lname{
+    background-color: #F9F9F9;
+    padding: 3px 68px 2px 3px;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+#email{
+    background-color: #F9F9F9;
+    padding: 3px 68px 2px 3px;;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+#phone{
+    background-color: #F9F9F9;
+    padding: 3px 68px 2px 3px;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+#address{
+    background-color: #F9F9F9;
+    padding: 3px 68px 2px 3px;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+#package{
+    background-color: #F9F9F9;
+    padding: 6px 78px 6px 3px;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+#coupan{
+    background-color: #F9F9F9;
+    padding: 6px 78px 6px 3px;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+#textArea{
+    background-color: #F9F9F9;
+    padding: 3px 28px 2px 3px;
+    border-radius: 3px;
+    border: 1px solid  #F9F9F9;
+}
+
+/*********************  Button ******************************/
+
+.submit_button {
+    background-color: #0A2D4F;
+    color: #f1f1f1;
+    padding: 4px 60px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*********************  Image ******************************/
+.main_image{
+float: right;
+    width: auto;
+    height: 500px;
+    margin-top: -500px;
+    margin-right: 90px;
+}
