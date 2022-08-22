@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Task 3</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    
+</head>
+
+<body>
+
+    <!--------------------------------NAVBAR--------------------------- -->
+
+
+
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#"><img src="/images/logo.svg"></a></li>
+            <li> <a class="home-btn" href=""> Home</a></li>
+            <li> <a class="about-btn" href="">About</a>
+                <ul class="dropdown">
+                        <li><a href="#">1. Menu Item #1</a></li>
+                        <li><a href="#">2. Menu Item #2</a></li>
+                        <li><a href="#">3. Menu Item #3</a></li>
+                        <li><a href="#">4. Menu Item #4</a></li>
+                    </ul>
+            </li>
+            <li> <a class="contact-btn" href="">Contact us</a> </li>
+        </ul>
+    </nav>
+
+
+
+
+<!--------------------------------HEADER--------------------------- -->
+
+
+
+<div class="hero">
+    <img class="hero-image" src="/images/coding.png" alt="">
+    <h3 class="hero-text">Team Alif</h3>
+</div>
+
+<!--------------------------------GALLERY--------------------------- -->
+
+
+<div  class="gallery">
+    <p class="gallery_heading">IMAGE GALLERY</p>
+	<div class="container">
+	<div class="column">
+        <img class="img-1" height="400px" src="/images/Rectangle (1).svg" alt="">
+	<h3> Cluster </h3>
+
+	</div>
+	<div class="column">
+        <img class="img-2" height="400px" src="/images/Rectangle (2).svg" alt="">
+	<h3> New York </h3>
+		
+	</div>
+	<div class="column">
+        <img class="img-3" height="400px" src="/images/Rectangle.svg" alt="">
+	<h3> Pizza </h3>
+    </div>
+    </div>
+</div>
+
+<!--------------------------------FORM--------------------------- -->
+
+    <div class="form-container">
+    <form action="" class="login-form">
+        <div class="form-heading"><h1>Contact Form</h1>
+        </div>
+        <div class="flex-input">
+        <label for="">Email:</label>
+        <input type="email" name="" id="" placeholder="example321@gmail.com" required>
+        </div>
+        <div class="flex-input">
+        <label for="">Password:</label>
+        <input type="password" name="" id="" placeholder="************" required>
+        </div>
+        <div class="flex-input-btn">
+        <input type="button" value="Submit">
+        </div>
+        
+    </form>
+    </div>
+
+    <!--------------------------------BOX GAMES--------------------------- -->
+
+    <div  class="game">
+    <p class="game_heading">BOXES GAME</p>
+	<div class="box-container">
+    <div><img class="box-3" src="/images/Rectangle 10.svg" alt=""></div>
+    <div><img  width="120px" class="box-1" src="/images/Rectangle 9.svg" alt=""></div>
+	<div><img class="box-2" src="/images/Rectangle 8.svg" alt=""></div>
+    </div>
+    </div>
+
+<!--------------------------------------FOOTER----------------------------------->
+
+    <footer>
+        <section class="container">
+            <div class=" left-footer">
+            <img class="footer_heading" src="/images/logo.svg" width="150px">
+            <p>Apple Inc. is an American multinational technology company that specializes in consumer electronics, software and online services headquartered in Cupertino, California, United States</p>
+            </div>
+            <div class="Product">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Theme Design</li>
+                    <li><a href="#">Plugin Design</li>
+                    <li><a href="#">Wordpress</li>
+                </ul>
+            </div>
+            <div class="Address">
+                <h4>Address</h4>
+                <ul>
+                    <li><a href="#">Theme Design</li>
+                    <li><a href="#">Plugin Design</li>
+                    <li><a href="#">Wordpress</li>
+                </ul>
+            </div>
+            <div class="Links">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#">Theme Design</li>
+                    <li><a href="#">Plugin Design</li>
+                    <li><a href="#">Wordpress</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>
